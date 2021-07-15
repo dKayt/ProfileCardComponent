@@ -1,0 +1,91 @@
+@import url("https://fonts.google.com/specimen/Kumbh+Sans");
+
+* {
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+  font-family: "Kumbh Sans";
+}
+
+body {
+  margin: auto;
+}
+.bg-pattern-bottom {
+  position: absolute;
+  right: -10%;
+  top: 35%;
+  z-index: -1;
+}
+
+.bg-pattern-top {
+  top: -40%;
+  left: -6%;
+  position: absolute;
+  z-index: -1;
+}
+
+.main-card {
+  height: 380px;
+  width: 350px;
+  margin: auto;
+  background-color: whitesmoke;
+  border-radius: 15px;
+}
+
+.div-images {
+  background-color: transparent;
+}
+
+/* Stats */
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: -10px 30px 0px 30px;
+  background-color: transparent;
+}
+
+.stats-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  background-color: transparent;
+}
+
+.stats-details-number {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 20px 0 0 0;
+  background-color: transparent;
+}
+
+.stats-details-text {
+  font-size: 15px;
+  background-color: transparent;
+  color: hsl(0, 0%, 59%);
+}
+
+/* Id */
+
+span {
+  font-weight: lighter;
+  background-color: transparent;
+}
+
+.id-age {
+  background-color: transparent;
+}
+
+.image-victor {
+  border-radius: 50px;
+  border-color: white;
+  border-width: 5px;
+  border-style: solid;
+  z-index: 2;
+  margin-top: -60px;
+}
+
+.image-background {
+  z-index: -1;
+}
